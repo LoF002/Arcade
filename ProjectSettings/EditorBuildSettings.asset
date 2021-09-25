@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Portada.unity
+    guid: 2bb2faf5c2d9b644285938c45329b022
+  - enabled: 1
+    path: Assets/Scenes/Juego.unity
+    guid: bd5806f5a0adffd4295bd5883ef432cb
+  - enabled: 1
+    path: Assets/Scenes/Gane.unity
+    guid: cb1843cb9394333419b77593b746d898
+  - enabled: 1
+    path: Assets/Scenes/Perdida.unity
+    guid: 3d15d154859c1ba4f9084d525c5000f5
+  - enabled: 1
+    path: Assets/Scenes/Puntaje.unity
+    guid: bb1af89a7dc41734e89724d75f08efcc
   m_configObjects: {}

@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
         if (_instancia == null)
         {
             _instancia = this;
+            DontDestroyOnLoad(this.gameObject);
         }
         else
         {
@@ -35,6 +36,11 @@ public class GameManager : MonoBehaviour
     public void Salir()
     {
         Application.Quit();
+    }
+
+    private void OnApplicationQuit()
+    {
+        
     }
 
 }

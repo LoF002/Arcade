@@ -31,7 +31,14 @@ public class PortadaHelper : MonoBehaviour
 
     public void Salir()
     {
-
+        try
+        {
+            GameManager.instancia.Salir();
+        }//Fin try
+        catch (System.Exception ex)
+        {
+            Debug.Log("No hay GameManager en la escena " + ex);
+        }//Fin catch
     }//Fin metodo
 
 }
