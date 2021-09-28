@@ -57,6 +57,9 @@
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\PortadaHelper.cs" />
+    <Compile Include="Assets\Scripts\PerdidaHelper.cs" />
+    <Compile Include="Assets\Scripts\GaneHelper.cs" />
+    <Compile Include="Assets\Scripts\PuntajeHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

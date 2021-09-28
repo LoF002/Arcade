@@ -5,6 +5,18 @@ using UnityEngine;
 public class PortadaHelper : MonoBehaviour
 {
     public string EscenaJuego, EscenaPuntaje;
+    public float timer = 5f;
+
+    void Start()
+    {
+        StartCoroutine(EsperarCambioEscena());
+    }//Fin star
+
+    private IEnumerator EsperarCambioEscena()
+    {
+        yield return new WaitForSeconds(timer);
+        VerMejoresPuntajes();
+    }
     public void IniciarJuego()
     {
         try
